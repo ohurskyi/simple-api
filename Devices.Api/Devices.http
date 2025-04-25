@@ -1,0 +1,13 @@
+@Devices_HostAddress = http://localhost:5087
+
+### GetDevices - Get all devices
+GET {{Devices_HostAddress}}/api/devices
+Accept: application/json
+
+### GetDeviceById - Get device by ID
+GET {{Devices_HostAddress}}/api/devices/3fa85f64-5717-4562-b3fc-2c963f66afa6
+Accept: application/json
+
+### GetDeviceByMacAddress - Get device by MAC address
+GET {{Devices_HostAddress}}/api/devices/mac/00:11:22:33:44:55
+Accept: application/json

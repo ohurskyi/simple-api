@@ -1,0 +1,7 @@
+﻿services:
+  devices:
+    image: devices
+    build:
+      context: .
+      dockerfile: Devices/Dockerfile
+
